@@ -30,7 +30,11 @@ aside {
   border-right: 1px solid var(--bg-default);
   background-color: var(--bg-default);
   color: #fff;
+  overflow-y: auto;
 
+  &::-webkit-scrollbar {
+    display: none;
+  }
   a {
     color: inherit;
     text-decoration: none;
